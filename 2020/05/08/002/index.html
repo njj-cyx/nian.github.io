@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="LaTeX：从入门到入土[一], 念">
+    <meta name="keywords" content="弹性力学复习【上】, 念">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>LaTeX：从入门到入土[一] | 念</title>
+    <title>弹性力学复习【上】 | 念</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -245,12 +245,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://imgkr.cn-bj.ufileos.com/4e5ceee4-2225-40da-90ae-9cea99689ddd.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">LaTeX：从入门到入土[一]</h1>
+                    <h1 class="description center-align post-title">弹性力学复习【上】</h1>
                 </div>
             </div>
         </div>
@@ -375,8 +375,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/LaTeX/">
-                                <span class="chip bg-color">LaTeX</span>
+                            <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">笔记</span>
                             </a>
                         
                     </div>
@@ -400,14 +400,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    1.1k
+                    3.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    4 Min
+                    15 Min
                 </div>
                 
 
@@ -417,75 +417,103 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这是 <strong>$\LaTeX$：从入门到入土</strong>系列的第1篇文章</p>
-<p>我开始使用 $\LaTeX$ 是上个学期的事情了，当时因为想要写一份好看的报告，牺牲了一个星期的午觉时间学习了 $\LaTeX$，而后被它所编译出文档的颜值所折服，并喜欢上了这个东西。</p>
-<p>大部分人可能在做数学建模的比赛的时候听说过 $\LaTeX$，而 $\LaTeX$ 交流群里在比赛前几天或者比赛中总能碰到一些神奇的问题，所以如果你的任务在三个月内，那么不建议你使用 $\LaTeX$，用Word写出来的文章也一样可以很好。</p>
-<h3 id="LaTeX-的优点"><a href="#LaTeX-的优点" class="headerlink" title="$\LaTeX$ 的优点"></a>$\LaTeX$ 的优点</h3><ul>
-<li><p>免费</p>
-</li>
-<li><p>在熟练使用 $\LaTeX$ 之后，持续学习压力小，我们可以高效、快速地进行论文写作及专业排版，并且对于数学公式，我们也可以轻易地输入、编辑。</p>
-</li>
-<li><p>使用别人精心设计的好模板就一个爽字。</p>
-</li>
-<li><p>大部分学术性论坛的数学公式输入都支持 $\TeX$ 语言，了解了 $\LaTeX$ 之后我们就可以在大多数论坛上输入数学公式了</p>
-</li>
-<li><p>对排版有了更多的认识，甚至可能对设计产生兴趣（比如我ε=ε=ε=┏(゜ロ゜;)┛）</p>
-</li>
-</ul>
-<h3 id="LaTeX-的缺点"><a href="#LaTeX-的缺点" class="headerlink" title="$\LaTeX$ 的缺点"></a>$\LaTeX$ 的缺点</h3><ul>
-<li>入门相对较难，学习时间成本较高</li>
-<li>图片调整位置比较麻烦，而Word能很轻松调整图片</li>
-<li>不能实时编辑</li>
-<li>遇到问题想解决需要一定的折腾</li>
-<li>小包、小工具多，使用和配置方法不统一<h2 id="从安装到卸载"><a href="#从安装到卸载" class="headerlink" title="从安装到卸载"></a>从安装到卸载</h2></li>
-</ul>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>推荐参考文档：<code>install-LaTeX</code></p>
-<p><a href="https://gitee.com/OsbertWang/install_latex/releases" target="_blank" rel="noopener">项目地址</a></p>
-<p>在网页中找到<code>install-LaTeX.pdf</code>下载即可</p>
-<p>用户安装的是 $\LaTeX$ 的发行版和相关的编辑器，$\LaTeX$ 的安装对于新手来说是比较头疼的一件事。所以请直接参考上面的文档，不要去乱百度。</p>
-<p>发行版建议使用最新版 <strong>texlive</strong>（目前是 2020），windows下编辑器推荐使用 <strong>texstudio</strong>，当然我强烈建议在线使用 <a href="https://www.overleaf.com" target="_blank" rel="noopener" title="overleaf">overleaf</a>，在线编译，省去你的大部分烦恼（雾），不过上 <strong>overleaf</strong> 最好会科学上网，更多解决办法请参考<code>install-LaTeX</code>。</p>
-<p><strong>不推荐使用C$\TeX$ 套装</strong>，其已经8年没有更新了，更多详细内容请阅读知乎文章：<br><a href="https://zhuanlan.zhihu.com/p/45174503" target="_blank" rel="noopener" title="[$\LaTeX$ 发行版] 2018年，为什么不推荐使用 C$\TeX$ 套装了">[$\LaTeX$ 发行版] 2018年，为什么不推荐使用 C$\TeX$ 套装了</a></p>
-<h3 id="入门书籍"><a href="#入门书籍" class="headerlink" title="入门书籍"></a>入门书籍</h3><p>建议<strong>通读</strong>：<code>lshort-zh-cn</code></p>
-<p><a href="https://github.com/CTeX-org/lshort-zh-cn/releases" target="_blank" rel="noopener">项目地址</a></p>
-<p>在网页中找到<code>lshort-zh-cn.pdf</code>下载即可 </p>
-<p>以及刘海洋的《$\LaTeX$ 入门》（跳过C$\TeX$ 的部分，听说最近要出第二版，表示期待）</p>
-<h3 id="提问网站"><a href="#提问网站" class="headerlink" title="提问网站"></a>提问网站</h3><blockquote>
-<p>lshort 强烈建议完整读一遍，普通文章排版所需要的几乎全部功能这里都包含了。找不到直接去《$\LaTeX$ 入门》的相关章节翻阅（当字典查）。其他网上的资料，wikibook 上的教程可以参考，知乎请认准那几位的回答，b 站鱼龙混杂谨慎使用，而 csdn、科学网博客、x 度文库请绝对不要看。</p>
-</blockquote>
-<p>以上摘抄自 <a href="https://zhuanlan.zhihu.com/p/74756647" target="_blank" rel="noopener" title="回「$\LaTeX$ 的罪与罚」">回「$\LaTeX$ 的罪与罚」</a> ，如果你在使用中出现了问题，建议去以下网站提问：</p>
-<ol>
-<li>英文论坛</li>
-</ol>
-<p><code>https://tex.stackexchange.com</code></p>
-<ol start="2">
-<li>中文论坛1 </li>
-</ol>
-<p><code>https://github.com/CTeX-org/forum</code></p>
-<ol start="3">
-<li>中文论坛2 </li>
-</ol>
-<p><code>https://wenda.latexstudio.net</code></p>
-<h3 id="提问规则"><a href="#提问规则" class="headerlink" title="提问规则"></a>提问规则</h3><ul>
-<li><p>理清你的问题，先尝试搜索自主解决，解决不了请整理出示例，然后去论坛求助，说明白你想做什么，做了什么，遇到了什么情况，具体哪里不满足你的需求。</p>
-</li>
-<li><p>一定要给出<strong>最小工作示例（MWE）</strong>：</p>
-<ul>
-<li>简而言之，<strong>最小工作示例</strong>就是一个精简到最小长度的、可以说明所需问题的 $\LaTeX$ 源文件。一方面，<strong>最小工作示例</strong>应该是一个完整的、可以直接编译的文件，利用示例可以方便地再现遇到的问题，不需要添加额外的代码；另一方面，示例文件应该尽可能地短小，不包含额外的文件，也没有与问题无关的文字代码干扰对错误的分析。比如：</li>
-</ul>
-<pre><code>\documentclass{article}
-\usepackage{amsmath}
-\begin{document}
-\[
- \cases{ a &amp; b \cr
-         c &amp; d \cr}
-\]
-\end{document}</code></pre><p>更多请参考：<a href="https://zhuanlan.zhihu.com/p/94837029" target="_blank" rel="noopener" title="[$\LaTeX$ 漫谈] 如何提问">[$\LaTeX$ 漫谈] 如何提问</a></p>
-</li>
-</ul>
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇复习笔记粗略列出了部分公式且介绍了本科少学时学习的内容，都是比较浅显的内容，仅做复习使用（并不涉及张量，可能以后会重新写份更详细的学习笔记吧），参考的是徐芝纶的《弹性力学简明教程》（课后答案我放公众号里了），由于图较多会引起排版困难，所以在此基本省略了例题，更多学习笔记请扫码关注：</p>
+<img src="C:\Users\17912\Desktop\新建文件夹\杂\稿定设计导出-20200426-121933.png" alt="稿定设计导出-20200426-121933" style="zoom:50%;" />
+
 <hr>
-<h2 id="资源获取"><a href="#资源获取" class="headerlink" title="资源获取"></a>资源获取</h2><p>我把上面提到的参考资料和 <strong>texstudio</strong>（国内下载容易失败）整合到网盘了。</p>
-<p>关注我的公众号<code>大学生的中转站</code>，后台回复：<code>latex</code> 即可获取。</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/19594848-c87b-4c01-9efe-ac625d31c0c5.png" alt=""></p>
+<h2 id="0-内容梳理"><a href="#0-内容梳理" class="headerlink" title="0.内容梳理"></a>0.内容梳理</h2><ol>
+<li>介绍了弹性力学介绍的对象以及一些规定；</li>
+<li>直角坐标的逻辑是，以位移为基本未知量进行求解，以应力作为未知量进行求解，常体力下基<br>于应力函数的求解，这三个基本思路；</li>
+<li>极坐标的求解主要还是基于用逆解与半逆解，基于应力函数来求解，只不过这里的方程形式都<br>已经变了；</li>
+<li>极坐标得到了许多有趣的解答，比如说含空洞的多连同结构的应力场分析(孔洞应力集中) ,<br>半空间体(地基)受到分布荷载作用下的沉降。</li>
+</ol>
+<h2 id="1-绪论"><a href="#1-绪论" class="headerlink" title="1.绪论"></a>1.绪论</h2><h3 id="研究对象"><a href="#研究对象" class="headerlink" title="研究对象"></a>研究对象</h3><p><strong>研究对象广泛</strong> ：研究各种形状的弹性体，除杆件外，还研究平面体、空间体，板和壳等。</p>
+<h3 id="研究方法"><a href="#研究方法" class="headerlink" title="研究方法"></a>研究方法</h3><p>在弹性体区域 $V$ 内严格考虑静力学、几何学和物理学三方面条件，在边界 $S$ 上严格考虑受力条件和约束条件，建议微分方程和边界条件并进行求解，得出较为精确的解答。</p>
+<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p>公式多、公式相互关系复杂、公式间的继承关系较多、数学要求高。</p>
+<h3 id="基本假设及其意义"><a href="#基本假设及其意义" class="headerlink" title="基本假设及其意义"></a>基本假设及其意义</h3><p><strong>连续性</strong>：各力学量可用连续函数表示<br><strong>完全弹性</strong>：应力与应变成线性关系<br><strong>均匀性</strong>：描述材料弹性性质的一组参数成为常数，与点的位置坐标无关，称为弹性常数。<br><strong>各项同性</strong>：弹性常数由最一般的21个缩减为2个，比如弹性模量 $E$ 和泊松 $\mu$<br><strong>小变形</strong>：保证控制方程为线性</p>
+<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p><strong>外力</strong>：面力 $\overline{f}$ ，体力 $f$<br><strong>应力</strong>：正应力 $\sigma$，切应力 $\tau$<br><strong>位移</strong>：一点位置的移动，用 $u, v, w$ 表示</p>
+<h4 id="正负号规定"><a href="#正负号规定" class="headerlink" title="正负号规定"></a>正负号规定</h4><p><strong>正应力</strong>：拉为正、压为负<br><strong>切应力</strong>：对截面附近物体内一点取矩，产生顺时针方向力矩的切应力为正</p>
+<hr>
+<h2 id="2-平面问题的基本理论"><a href="#2-平面问题的基本理论" class="headerlink" title="2.平面问题的基本理论"></a>2.平面问题的基本理论</h2><h3 id="平衡微分方程"><a href="#平衡微分方程" class="headerlink" title="平衡微分方程"></a>平衡微分方程</h3><p>两个微分方程，三个未知函数，因此微分体的平衡是超静定的，必须考虑几何学和物理学方面的条件，才能解决问题：<br>$$<br>\begin{cases}<br>\frac{\partial \sigma_{x}}{\partial x}+\frac{\partial \tau_{y x}}{\partial y}+f_{x}=0\<br>\frac{\partial \tau_{x y}}{\partial x}+\frac{\partial \sigma_{y}}{\partial y}+f_{y}=0\<br>\end{cases}<br>\quad\Leftrightarrow\quad<br>\left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}\right)\left(\begin{array}{cc}\sigma_{x} &amp; \tau_{x y} \ \tau_{y x} &amp; \sigma_{y}\end{array}\right)+\left(f_{x}, f_{y}\right)=0<br>$$</p>
+<h3 id="几何方程"><a href="#几何方程" class="headerlink" title="几何方程"></a>几何方程</h3><p>当弹性体的位移分量完全确定时，应变分 量即完全确定。并且，下述方程适用于所有平面问题，即平面应力问题或者平重应变问题：<br>$$<br>\varepsilon_{x}=\frac{\partial u}{\partial x}, \varepsilon_{y}=\frac{\partial v}{\partial y}, \gamma_{x y}=\frac{\partial v}{\partial x}+\frac{\partial u}{\partial y}<br>$$</p>
+<h3 id="物理方程"><a href="#物理方程" class="headerlink" title="物理方程"></a>物理方程</h3><p>平面应力问题的物理方程：<br>$$<br>\left{\begin{aligned}<br>\varepsilon_{x} &amp;=\frac{1}{E}\left(\sigma_{x}-\mu \sigma_{y}\right) \<br>\varepsilon_{y} &amp;=\frac{1}{E}\left(\sigma_{y}-\mu \sigma_{x}\right) \<br>\gamma_{x y} &amp;=\frac{2(1+\mu)}{E} \tau_{x y}<br>\end{aligned}\right.<br>$$</p>
+<h3 id="边界条件"><a href="#边界条件" class="headerlink" title="边界条件"></a>边界条件</h3><img src="https://imgkr.cn-bj.ufileos.com/59157fb1-88b5-4bed-b449-37d10fbff9b6.png" align = "left" width="160px" hi/>
+&emsp; 先来看看沿斜面的应力分量表达式：
+ $\begin{array}{l}
+  &p_{x}=l \sigma_{x}+m \tau_{y x}\\
+  &p_{y}=l \tau_{x y}+m \sigma_{y}\\
+  &l=\cos (n, x), m=\cos (n, y)
+  \end{array}$
+
+
+
+
+
+
+
+<p>垂直于$x$ 轴的边界上 $(l=\pm 1, m=0)$<br>$$<br>\left(\sigma_{x}\right)<em>{s}=\pm \bar{f}</em>{x}(y)<del>,</del>\left(\tau_{x y}\right)<em>{s}=\pm \bar{f</em>{y}}(y)<br>$$<br>垂直于$y$ 轴的边界上 $(l=0, m=\pm 1)$<br>$$<br>\left(\sigma_{y}\right)<em>{s .}=\pm \bar{f}</em>{y}(x)<del>,</del>\left(\tau_{y x}\right)<em>{s}=\pm \bar{f}</em>{x}(x)<br>$$</p>
+<blockquote>
+<p> 其实：在这种边界上，应力分量的边界值就等于边界上对应的面力。</p>
+<p> （正负号规定按应力正负规定）</p>
+</blockquote>
+<p><strong>例2.1：</strong></p>
+<p><img src="C:%5CUsers%5C17912%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200511151239171.png" alt="image-20200511151239171"></p>
+<h3 id="圣维南原理"><a href="#圣维南原理" class="headerlink" title="圣维南原理"></a>圣维南原理</h3><p>在小边界上应用圣维南原理，可以直接地表述为：在同一小边界面上，应力的主矢量与主矩，应分别等于面力的主矢量与主矩。</p>
+<p>$$<br>\left{<br>\begin{aligned}<br>\int_{-h / 2}^{h / 2}\left(\sigma_{x}\right)<em>{x=l} \mathrm{d} y=F</em>{\mathrm{N}} \<br>\int_{-h / 2}^{h / 2}\left(\tau_{x y}\right)<em>{x=l} \mathrm{d} y=F</em>{\mathrm{S}}, \<br>\int_{-h / 2}^{h / 2}\left(\sigma_{x}\right)<em>{x=l} \cdot y d y=M<br>\end{aligned}\right.<br>\quad<br>\xrightarrow{<br>\begin{aligned}(\sigma</em>{x})<em>{x=l}=\bar{f}</em>{x}(s)\<br>(\tau_{x y})<em>{x=l}=\bar{f}</em>{y}(y)<br>\end{aligned}}<br>\quad<br>\left{\begin{aligned}<br>\int_{-h / 2}^{h / 2}\left(\sigma_{x}\right)<em>{x=l} \mathrm{d} y=F</em>{\mathrm{N}} \<br>\int_{-h / 2}^{h / 2}\left(\tau_{x y}\right)<em>{x=l} \mathrm{d} y=F</em>{\mathrm{S}} \<br>\int_{-h / 2}^{h / 2}\left(\sigma_{x}\right)_{x=l} \cdot y d y=M<br>\end{aligned}\right.<br>$$<br><strong>例2.2</strong></p>
+<img src="C:\Users\17912\AppData\Roaming\Typora\typora-user-images\image-20200511164035325.png" alt="image-20200511164035325" style="zoom:67%;" />
+
+
+
+<h3 id="按位移求解平面问题"><a href="#按位移求解平面问题" class="headerlink" title="按位移求解平面问题"></a>按位移求解平面问题</h3><p>位移解法的基本方程:<br>$$<br>\begin{aligned}<br>&amp;\frac{E}{1-\mu^{2}}\left(\frac{\partial^{2} u}{\partial x^{2}}+\frac{1-\mu}{2} \frac{\partial^{2} u}{\partial y^{2}}+\frac{1+\mu}{2} \frac{\partial^{2} v}{\partial x \partial y}\right)+f_{x}=0\<br>&amp;\frac{E}{1-\mu^{2}}\left(\frac{1-\mu}{2} \frac{\partial^{2} v}{\partial x^{2}}+\frac{\partial^{2} v}{\partial y^{2}}+\frac{1+\mu}{2} \frac{\partial^{2} u}{\partial x \partial y}\right)+f_{y}=0<br>\end{aligned}<br>$$<br>边界条件：<br>$$<br>\left{\begin{aligned}<br>\frac{E}{1-\mu^{2}}\left[l\left(\frac{\partial u}{\partial x}+\mu \frac{\partial v}{\partial y}\right)+m \frac{1-\mu}{2}\left(\frac{\partial v}{\partial x}+\frac{\partial u}{\partial y}\right)\right]<em>{s}=\bar{f}</em>{x}(s) \<br>\frac{E}{1-\mu^{2}}\left[l \frac{1-\mu}{2}\left(\frac{\partial v}{\partial x}+\frac{\partial u}{\partial y}\right)+m\left(\frac{\partial v}{\partial y}+\mu \frac{\partial u}{\partial x}\right)\right]<em>{s}=\bar{f}</em>{y}(s)<br>\end{aligned}\right.<br>$$</p>
+<h3 id="应力函数"><a href="#应力函数" class="headerlink" title="应力函数"></a>应力函数</h3><p>按应力求解平面问题，可以归纳为求解一个应力函数 $\Phi$，它必须满足在区内的相容方程：<br>$$<br>\nabla^{4}\Phi=\left(\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}\right)\left(\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}\right)\Phi=\left(\frac{\partial^{4}}{\partial x^{4}}+2 \frac{\partial^{4}}{\partial x^{2} \partial y^{2}}+\frac{\partial^{4}}{\partial y^{4}}\right)\Phi=0<br>$$</p>
+<p>在边界上的应力边界条件式（假设全部都为应力边界条件）：<br>$$<br>\left{\begin{aligned}<br>\sigma_{x}&amp;=\frac{\partial^{2} \Phi}{\partial y^{2}}-f_{x} x,\ \sigma_{y}&amp;=\frac{\partial^{2} \Phi}{\partial x^{2}}-f_{y} y,\<br>\tau_{x y}&amp;=\tau_{y x}=-\frac{\partial^{2} \Phi}{\partial x \partial y}<br>\end{aligned}\right.<br>$$</p>
+<hr>
+<h2 id="3-平面问题的直角坐标解答"><a href="#3-平面问题的直角坐标解答" class="headerlink" title="3.平面问题的直角坐标解答"></a>3.平面问题的直角坐标解答</h2><h3 id="逆解法与半逆解法"><a href="#逆解法与半逆解法" class="headerlink" title="逆解法与半逆解法"></a>逆解法与半逆解法</h3><h4 id="逆解法"><a href="#逆解法" class="headerlink" title="逆解法"></a>逆解法</h4><p>所谓逆解法，就是先设定各种形式的满足相容方程的应力函数中。然后利用应力函数计算出各应力分量，根据边界条件来考察，这样的应力函数对应于什么样的弹性力学问题。</p>
+<p><strong>例3.1：</strong></p>
+<p>二次函数$\Phi=c y^2$，带入应力分量得：$\sigma_x=2c<del>,</del>\sigma_y=0<del>,</del>\tau_{xy}=\tau_{yx}=0.$</p>
+<p>结论：纯二次函数对应于沿坐标轴方向单向均布拉力模型。</p>
+<p><strong>例3.2：</strong></p>
+<p>三次函数$\Phi=a y^3$，带入应力分量得：$\sigma_ { x }=6 a y<del>,</del> \sigma_{y}=0~, ~\tau_{x y}=0$</p>
+<p>结论：纯三次函数可以解决纯弯曲问题</p>
+<h4 id="半逆解法"><a href="#半逆解法" class="headerlink" title="半逆解法"></a>半逆解法</h4><p>所谓半逆解法，就是针对所要求解的问题，根据其边界条件，假设出部分或者全部应力为某种形式的函数，从而反推出应力函数中。然后根据相容方程和剩余的边界条件，确定出其余的应力分量。这是一种常用的方法。(下一章详细介绍)</p>
+<h3 id="矩阵梁的弯曲"><a href="#矩阵梁的弯曲" class="headerlink" title="矩阵梁的弯曲"></a>矩阵梁的弯曲</h3><img src="C:\Users\17912\AppData\Roaming\Typora\typora-user-images\image-20200512182034764.png" alt="image-20200512182034764" style="zoom:70%"/>
+
+<p>边界条件：</p>
+<ol>
+<li>主要边界：$(\sigma_{y})<em>{y=\pm h / 2}=0<del>,</del> (\tau</em>{x y})_{y=\pm h / 2}=0$</li>
+<li>次要边界：$\left(\tau_{x y}\right)<em>{x=0, l}=0$，应用圣维南原理：$\left{\begin{aligned}&amp;\int</em>{-h / 2}^{h / 2}\left(\sigma_{x}\right)<em>{x=0, l} \mathrm{d} y=F</em>{\mathrm{N}}=0 \ &amp;\int_{-h / 2}^{h / 2}\left(\sigma_{x}\right)_{x=0, l} y \cdot \mathrm{d} y=M\end{aligned}\right.$</li>
+</ol>
+<p>由上式得出最终解：$\left{\begin{array}{l}\sigma_{x}=\frac{12 M}{h^{3}} y \ \sigma_{y}=0 \ \tau_{x y}=0\end{array} \right.$</p>
+<p>其中由于梁截面的惯性矩为 $I=\frac{1\times h^3}{12}$，所以也可写成 $\sigma_{x}=\frac{M}{I} y$.</p>
+<h3 id="简支梁受均布荷载"><a href="#简支梁受均布荷载" class="headerlink" title="简支梁受均布荷载"></a>简支梁受均布荷载</h3><p> 该内容在此忽略，主要应用了半逆解法，求解出各个应力分量表达式，参考徐芝纶《弹性力学简明教程》的 $ \S$ 3-4 </p>
+<hr>
+<h2 id="4-平面问题的极坐标解答"><a href="#4-平面问题的极坐标解答" class="headerlink" title="4.平面问题的极坐标解答"></a>4.平面问题的极坐标解答</h2><h3 id="极坐标中的平衡微分方程"><a href="#极坐标中的平衡微分方程" class="headerlink" title="极坐标中的平衡微分方程"></a>极坐标中的平衡微分方程</h3><p>极坐标中平面问题的平衡微分方程：<br>$$<br>\left{\begin{aligned}<br>\frac{\partial \sigma_{\rho}}{\partial \rho}+\frac{1}{\rho} \frac{\partial \tau_{\varphi \rho}}{\partial \varphi}+\frac{\sigma_{\rho}-\sigma_{\varphi}}{\rho}+f_{\rho}=0 \<br>\frac{\partial \tau_{\rho \varphi}}{\partial \rho}+\frac{1}{\rho} \frac{\partial \sigma_{\varphi}}{\partial \varphi}+\frac{2 \tau_{\rho \varphi}}{\rho}+f_{\varphi}=0<br>\end{aligned}\right.<br>$$</p>
+<h3 id="极坐标中的几何方程和物理方程"><a href="#极坐标中的几何方程和物理方程" class="headerlink" title="极坐标中的几何方程和物理方程"></a>极坐标中的几何方程和物理方程</h3><p>只有径向位移：$\left{\begin{array}{l}\varepsilon_{\rho}=\frac{\partial u_{\rho}}{\partial \rho} \ \varepsilon_{\varphi}=\frac{u_{\rho}}{\rho} \ \gamma_{\rho \varphi}=\frac{1}{\rho} \frac{\partial u_{\rho}}{\partial \varphi}\end{array}\right.$    ，   只有环向位移$\left{\begin{array}{l}\varepsilon_{\rho}=0\ \varepsilon_{\varphi}=\frac{1}{\rho} \frac{\partial u_{\varphi}}{\partial \varphi} \ \gamma_{\rho \varphi}=\frac{\partial u_{\varphi}}{\partial \rho}-\frac{u_{\varphi}}{\rho}\end{array}\right.$ </p>
+<p>沿径向和环向都有位移：<br>$$<br>\left{\begin{aligned}<br>\varepsilon_{\rho}&amp;=\frac{\partial u_{\rho}}{\partial \rho} \<br>\varepsilon_{\varphi}&amp;=\frac{1}{\rho} \frac{\partial u_{\varphi}}{\partial \varphi}+\frac{u_{\rho}}{\rho} \<br>\gamma_{\rho \varphi}&amp;=\frac{\partial u_{\varphi}}{\partial \rho}+\frac{1}{\rho} \frac{\partial u_{\rho}}{\partial \varphi}-\frac{u_{\varphi}}{\rho}<br>\end{aligned}\right.<br>$$<br>物理方程<br>$$<br>\left{\begin{aligned}<br>\varepsilon_{\rho}&amp;=\frac{1}{E} \sigma_{\rho}-\mu \sigma_{\varphi} \<br>\varepsilon_{\varphi}&amp;=\frac{1}{E} \sigma_{\varphi}-\mu \sigma_{\rho} \<br>\gamma_{\rho \varphi}&amp;=\frac{1}{G} \tau_{\rho \varphi}=\frac{2(1+\mu)}{E} \tau_{\rho \varphi}<br>\end{aligned}\right.<br>$$<br>需要注意的是，上面写出的是平面应力问题的物理方程，对于平面应变问题，只需在上式中对弹性常数做如下代换：<br>$$<br>E \rightarrow \frac{E}{1-\mu^{2}}, \mu \rightarrow \frac{\mu}{1-\mu}<br>$$</p>
+<h3 id="位移、应力分量的坐标变换式"><a href="#位移、应力分量的坐标变换式" class="headerlink" title="位移、应力分量的坐标变换式"></a>位移、应力分量的坐标变换式</h3><p>应力分量由直角坐标向极坐标的变换式：<br>$$<br>\left{\begin{aligned}<br>\sigma_{\rho}&amp;=\sigma_{x} \cos ^{2} \varphi+\sigma_{y} \sin ^{2} \varphi+2 \tau_{x y} \sin \varphi \cos \varphi \<br>\sigma_{\varphi}&amp;=\sigma_{x} \sin ^{2} \varphi+\sigma_{y} \cos ^{2} \varphi-2 \tau_{x y} \sin \varphi \cos \varphi \<br>\tau_{\rho \varphi}&amp;=\left(\sigma_{y}-\sigma_{x}\right) \sin \varphi \cos \varphi+\tau_{x y}\left(\cos ^{2} \varphi-\sin ^{2} \varphi\right)<br>\end{aligned}\right.<br>$$<br>倘若利用旋转矩阵，上述变换关系还可以写做<br>$$<br>\left[\begin{array}{cc}<br>\sigma_{\rho} &amp; \tau_{\varphi \rho} \<br>\tau_{\rho \varphi} &amp; \sigma_{\varphi}<br>\end{array}\right]=\left[\begin{array}{cc}<br>\cos \varphi &amp; \sin \varphi \<br>-\sin \varphi &amp; \cos \varphi<br>\end{array}\right]\left[\begin{array}{cc}<br>\sigma_{x} &amp; \tau_{y x} \<br>\tau_{x y} &amp; \sigma_{y}<br>\end{array}\right]\left[\begin{array}{cc}<br>\cos \varphi &amp; \sin \varphi \<br>-\sin \varphi &amp; \cos \varphi<br>\end{array}\right]^{\mathrm{T}}<br>$$</p>
+<h3 id="极坐标中的应力函数法"><a href="#极坐标中的应力函数法" class="headerlink" title="极坐标中的应力函数法"></a>极坐标中的应力函数法</h3><p>当不计体力时，在极坐标中按应力求解平面问题，归结为求解一个应力函数$\Phi$ ，它必须满足下列条件</p>
+<ol>
+<li><p>区域内的相容方程 $ \nabla^{4} \Phi=\left(\frac{\partial^{2}}{\partial \rho^{2}}+\frac{1}{\rho} \frac{\partial}{\partial \rho}+\frac{1}{\rho^{2}} \frac{\partial^{2}}{\partial \varphi^{2}}\right)^{2} \Phi=0$</p>
+</li>
+<li><p>边界 $S$ 上的应力边界条件 $\quad\left{\begin{array}{l}\left(l \sigma_{\rho}+m \tau_{\varphi \rho}\right)<em>{s}=\bar{f}</em>{\rho}(s) \ \left(l \tau_{\rho \varphi}+m \sigma_{\varphi}\right)<em>{s}=\bar{f}</em>{\varphi}(s)\end{array}\right.$<br>这里假设全部为应カ边界，即 $S=S_{\sigma}, S_{u}=0 ;$ 上式中的应力分量:<br>$$<br>\sigma_{\rho}=\frac{1}{\rho} \frac{\partial \Phi}{\partial \rho}+\frac{1}{\rho^{2}} \frac{\partial^{2} \Phi}{\partial \varphi^{2}}, \sigma_{\varphi}=\frac{\partial^{2} \Phi}{\partial \rho^{2}}, \tau_{\rho \varphi}=\tau_{\varphi \rho}=-\frac{\partial}{\partial \rho}\left(\frac{1}{\rho} \frac{\partial \Phi}{\partial \varphi}\right)<br>$$</p>
+</li>
+<li><p>对于多连体，还需补充位移单值条件。</p>
+</li>
+</ol>
+<h3 id="轴对称应力问题"><a href="#轴对称应力问题" class="headerlink" title="轴对称应力问题"></a>轴对称应力问题</h3><p>轴对称问题下的相容方程：$\nabla^{2} \nabla^{2} \Phi=\frac{1}{\rho} \frac{\mathrm{d}}{\mathrm{d} \rho}\left{\rho \frac{\mathrm{d}}{\mathrm{d} \rho}\left[\frac{1}{\rho} \frac{\mathrm{d}}{\mathrm{d} \rho}\left(\rho \frac{\mathrm{d} \Phi}{\mathrm{d} \rho}\right)\right]\right}=0$</p>
+<p>轴对称应力的一般解答：$$\left{\begin{aligned}<br>\sigma_{\rho}&amp;=\frac{A}{\rho^{2}}+B(1+2 \ln \rho)+2 C \<br>\sigma_{\varphi}&amp;=-\frac{A}{\rho^{2}}+B(3+2 \ln \rho)+2 C \<br>\tau_{\rho \varphi}&amp;=\tau_{\varphi \rho}=0<br>\end{aligned}\right.$$</p>
+<p>轴对称应力状态的位移的一般性解答（平面应力问题）：<br>$$<br>\begin{aligned}<br>u_{\rho} &amp;=\frac{1}{E}\left[-(1+\mu) \frac{A}{\rho}+2(1-\mu) B \rho(\ln \rho-1)+(1-3 \mu) B \rho+2(1-\mu) C \rho\right] +I \cos \varphi+K \sin \varphi \<br>u_{\varphi} &amp;=\frac{4 B \rho \varphi}{E}+H \rho-I \sin \varphi+K \cos \varphi<br>\end{aligned}<br>$$</p>
+<h3 id="圆环或圆筒守均匀压力-压力隧洞-圆孔的孔口在边界上受集中力"><a href="#圆环或圆筒守均匀压力-压力隧洞-圆孔的孔口在边界上受集中力" class="headerlink" title="圆环或圆筒守均匀压力/压力隧洞/圆孔的孔口在边界上受集中力"></a>圆环或圆筒守均匀压力/压力隧洞/圆孔的孔口在边界上受集中力</h3><p> 该内容在此忽略（图有点多），应用轴对称应力的解决办法，详情参考徐芝纶《弹性力学简明教程》的 $ \S$ 4-6，$\S$ 4-7 ，$\S$ 4-8 </p>
+<h2 id="笔记获取"><a href="#笔记获取" class="headerlink" title="笔记获取"></a>笔记获取</h2><p>可以直接在后台回复：<font color=#F44E3B>弹性力学</font> ，即可获取笔记的pdf版本，以方便各位查看。</p>
+<h2 id="有个想法"><a href="#有个想法" class="headerlink" title="有个想法"></a>有个想法</h2><p>目前建了一个QQ群，分享自己的原创笔记，扫描二维码加入我们，一起创作：</p>
+<blockquote>
+<p><img src="https://imgkr.cn-bj.ufileos.com/049575fa-8226-4c3f-ae84-3775f0706216.png" alt="" title="width=120px"></p>
+</blockquote>
+<hr>
+<h3 id="句子摘抄"><a href="#句子摘抄" class="headerlink" title="句子摘抄"></a>句子摘抄</h3><blockquote>
+<p>热爱可抵岁月漫长。</p>
+</blockquote>
+<hr>
 
             </div>
             <hr/>
@@ -511,7 +539,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://txnian.github.io/2020/05/08/001/">https://txnian.github.io/2020/05/08/001/</a>
+                    <a href="https://txnian.github.io/2020/05/08/002/">https://txnian.github.io/2020/05/08/002/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -549,8 +577,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/LaTeX/">
-                                    <span class="chip bg-color">LaTeX</span>
+                                <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">笔记</span>
                                 </a>
                             
                         </div>
@@ -718,10 +746,9 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
                 <a href="/2020/05/08/001/">
                     <div class="card-image">
@@ -739,9 +766,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-08
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-08
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -750,7 +777,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -766,7 +792,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
+                Current&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
                 <a href="/2020/05/08/002/">
@@ -796,6 +822,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
