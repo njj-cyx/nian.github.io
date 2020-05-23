@@ -124,7 +124,7 @@ pre {
     content: " ";
     position: absolute;
     border-radius: 50%;
-    background: #ff5f56;
+    background: #ff756d;
     width: 12px;
     height: 12px;
     top: 0;
@@ -250,7 +250,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #64c4ed 0%, #b1e8ed 100%);
+    background-image: linear-gradient(to right, #64c4ed 70%, #4f81c7 30%);
 }
 
 .text-color {
