@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="LaTeX：从入门到入土, 念">
+    <meta name="keywords" content="关于勒贝格测度与积分的其它性质, 念">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>LaTeX：从入门到入土 | 念</title>
+    <title>关于勒贝格测度与积分的其它性质 | 念</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -245,12 +245,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://imgkr.cn-bj.ufileos.com/4e5ceee4-2225-40da-90ae-9cea99689ddd.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">LaTeX：从入门到入土</h1>
+                    <h1 class="description center-align post-title">关于勒贝格测度与积分的其它性质</h1>
                 </div>
             </div>
         </div>
@@ -375,8 +375,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/LaTeX/">
-                                <span class="chip bg-color">LaTeX</span>
+                            <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">笔记</span>
                             </a>
                         
                     </div>
@@ -400,14 +400,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    1.1k
+                    0
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    4 Min
+                    1 Min
                 </div>
                 
 
@@ -417,75 +417,11 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这是 <strong>LaTeX：从入门到入土</strong>系列的第1篇文章</p>
-<p>我开始使用 LaTeX 是上个学期的事情了，当时因为想要写一份好看的报告，牺牲了一个星期的午觉时间学习了 LaTeX，而后被它所编译出文档的颜值所折服，并喜欢上了这个东西。</p>
-<p>大部分人可能在做数学建模的比赛的时候听说过 LaTeX，而 LaTeX 交流群里在比赛前几天或者比赛中总能碰到一些神奇的问题，所以如果你的任务在三个月内，那么不建议你使用 LaTeX，用Word写出来的文章也一样可以很好。</p>
-<h3 id="LaTeX-的优点"><a href="#LaTeX-的优点" class="headerlink" title="LaTeX 的优点"></a>LaTeX 的优点</h3><ul>
-<li><p>免费</p>
-</li>
-<li><p>在熟练使用 LaTeX 之后，持续学习压力小，我们可以高效、快速地进行论文写作及专业排版，并且对于数学公式，我们也可以轻易地输入、编辑。</p>
-</li>
-<li><p>使用别人精心设计的好模板就一个爽字。</p>
-</li>
-<li><p>大部分学术性论坛的数学公式输入都支持 TeX 语言，了解了 LaTeX 之后我们就可以在大多数论坛上输入数学公式了</p>
-</li>
-<li><p>对排版有了更多的认识，甚至可能对设计产生兴趣（比如我ε=ε=ε=┏(゜ロ゜;)┛）</p>
-</li>
-</ul>
-<h3 id="LaTeX-的缺点"><a href="#LaTeX-的缺点" class="headerlink" title="LaTeX 的缺点"></a>LaTeX 的缺点</h3><ul>
-<li>入门相对较难，学习时间成本较高</li>
-<li>图片调整位置比较麻烦，而Word能很轻松调整图片</li>
-<li>不能实时编辑</li>
-<li>遇到问题想解决需要一定的折腾</li>
-<li>小包、小工具多，使用和配置方法不统一<h2 id="从安装到卸载"><a href="#从安装到卸载" class="headerlink" title="从安装到卸载"></a>从安装到卸载</h2></li>
-</ul>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>推荐参考文档：<code>install-LaTeX</code></p>
-<p><a href="https://gitee.com/OsbertWang/install_latex/releases" target="_blank" rel="noopener">项目地址</a></p>
-<p>在网页中找到<code>install-LaTeX.pdf</code>下载即可</p>
-<p>用户安装的是 LaTeX 的发行版和相关的编辑器，LaTeX 的安装对于新手来说是比较头疼的一件事。所以请直接参考上面的文档，不要去乱百度。</p>
-<p>发行版建议使用最新版 <strong>texlive</strong>（目前是 2020），windows下编辑器推荐使用 <strong>texstudio</strong>，当然我强烈建议在线使用 <a href="https://www.overleaf.com" target="_blank" rel="noopener" title="overleaf">overleaf</a>，在线编译，省去你的大部分烦恼（雾），不过上 <strong>overleaf</strong> 最好会科学上网，更多解决办法请参考<code>install-LaTeX</code>。</p>
-<p><strong>不推荐使用CTeX 套装</strong>，其已经8年没有更新了，更多详细内容请阅读知乎文章：<br><a href="https://zhuanlan.zhihu.com/p/45174503" target="_blank" rel="noopener" title="[LaTeX 发行版] 2018年，为什么不推荐使用 CTeX 套装了">[LaTeX 发行版] 2018年，为什么不推荐使用 CTeX 套装了</a></p>
-<h3 id="入门书籍"><a href="#入门书籍" class="headerlink" title="入门书籍"></a>入门书籍</h3><p>建议<strong>通读</strong>：<code>lshort-zh-cn</code></p>
-<p><a href="https://github.com/CTeX-org/lshort-zh-cn/releases" target="_blank" rel="noopener">项目地址</a></p>
-<p>在网页中找到<code>lshort-zh-cn.pdf</code>下载即可 </p>
-<p>以及刘海洋的《LaTeX 入门》（跳过CTeX 的部分，听说最近要出第二版，表示期待）</p>
-<h3 id="提问网站"><a href="#提问网站" class="headerlink" title="提问网站"></a>提问网站</h3><blockquote>
-<p>lshort 强烈建议完整读一遍，普通文章排版所需要的几乎全部功能这里都包含了。找不到直接去《LaTeX 入门》的相关章节翻阅（当字典查）。其他网上的资料，wikibook 上的教程可以参考，知乎请认准那几位的回答，b 站鱼龙混杂谨慎使用，而 csdn、科学网博客、x 度文库请绝对不要看。</p>
-</blockquote>
-<p>以上摘抄自 <a href="https://zhuanlan.zhihu.com/p/74756647" target="_blank" rel="noopener" title="回「LaTeX 的罪与罚」">回「LaTeX 的罪与罚」</a> ，如果你在使用中出现了问题，建议去以下网站提问：</p>
-<ol>
-<li>英文论坛</li>
-</ol>
-<p><code>https://tex.stackexchange.com</code></p>
-<ol start="2">
-<li>中文论坛1 </li>
-</ol>
-<p><code>https://github.com/CTeX-org/forum</code></p>
-<ol start="3">
-<li>中文论坛2 </li>
-</ol>
-<p><code>https://wenda.latexstudio.net</code></p>
-<h3 id="提问规则"><a href="#提问规则" class="headerlink" title="提问规则"></a>提问规则</h3><ul>
-<li><p>理清你的问题，先尝试搜索自主解决，解决不了请整理出示例，然后去论坛求助，说明白你想做什么，做了什么，遇到了什么情况，具体哪里不满足你的需求。</p>
-</li>
-<li><p>一定要给出<strong>最小工作示例（MWE）</strong>：</p>
-<ul>
-<li>简而言之，<strong>最小工作示例</strong>就是一个精简到最小长度的、可以说明所需问题的 LaTeX 源文件。一方面，<strong>最小工作示例</strong>应该是一个完整的、可以直接编译的文件，利用示例可以方便地再现遇到的问题，不需要添加额外的代码；另一方面，示例文件应该尽可能地短小，不包含额外的文件，也没有与问题无关的文字代码干扰对错误的分析。比如：</li>
-</ul>
-<pre><code>\documentclass{article}
-\usepackage{amsmath}
-\begin{document}
-\[
- \cases{ a &amp; b \cr
-         c &amp; d \cr}
-\]
-\end{document}</code></pre><p>更多请参考：<a href="https://zhuanlan.zhihu.com/p/94837029" target="_blank" rel="noopener" title="[LaTeX 漫谈] 如何提问">[LaTeX 漫谈] 如何提问</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="资源获取"><a href="#资源获取" class="headerlink" title="资源获取"></a>资源获取</h2><p>我把上面提到的参考资料和 <strong>texstudio</strong>（国内下载容易失败）整合到网盘了。</p>
-<p>关注我的公众号<code>大学生的中转站</code>，后台回复：<code>latex</code> 即可获取。</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/19594848-c87b-4c01-9efe-ac625d31c0c5.png" alt=""></p>
+                <p><img src="https://imgkr.cn-bj.ufileos.com/907a1584-e90d-4c55-ae87-7490c8a69a27.Jpeg" alt=""></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/775f0961-5aba-4a37-81bd-ab466fdb50d1.Jpeg" alt=""></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/4bbef9b4-485d-4dca-ad89-ae90cfebf335.Jpeg" alt=""></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/78cbc064-5dd0-4fd9-93e4-1174dd2102d7.Jpeg" alt=""></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/bf8d099e-4625-4fa4-a93c-381e2e0a5dfe.Jpeg" alt=""></p>
 
             </div>
             <hr/>
@@ -511,7 +447,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://txnian.github.io/2020/05/08/001/">https://txnian.github.io/2020/05/08/001/</a>
+                    <a href="https://txnian.github.io/2020/05/08/003/">https://txnian.github.io/2020/05/08/003/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -549,8 +485,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/LaTeX/">
-                                    <span class="chip bg-color">LaTeX</span>
+                                <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">笔记</span>
                                 </a>
                             
                         </div>
@@ -722,24 +658,25 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2020/05/21/002/">
+                <a href="/2020/05/08/001/">
                     <div class="card-image">
                         
+                        <img src="https://imgkr.cn-bj.ufileos.com/4e5ceee4-2225-40da-90ae-9cea99689ddd.png" class="responsive-img" alt="LaTeX：从入门到入土">
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="弹性力学复习【上】">
-                        
-                        <span class="card-title">弹性力学复习【上】</span>
+                        <span class="card-title">LaTeX：从入门到入土</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            前言本篇复习笔记粗略列出了部分公式且介绍了本科少学时学习的内容，都是比较浅显的内容，仅做复习使用（并不涉及张量，可能以后会重新写份更详细的学习笔记吧），参考的是徐芝纶的《弹性力学简明教程》（课后答案我放公众号里了），由于在 markdwon
+                            前言这是 LaTeX：从入门到入土系列的第1篇文章
+我开始使用 LaTeX 是上个学期的事情了，当时因为想要写一份好看的报告，牺牲了一个星期的午觉时间学习了 LaTeX，而后被它所编译出文档的颜值所折服，并喜欢上了这个东西。
+大部分人可能在
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-21
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-08
                         </span>
                         <span class="publish-author">
                             
@@ -752,8 +689,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
+                    <a href="/tags/LaTeX/">
+                        <span class="chip bg-color">LaTeX</span>
                     </a>
                     
                 </div>
@@ -764,7 +701,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
+                Current&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
                 <a href="/2020/05/08/003/">
@@ -799,6 +736,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
